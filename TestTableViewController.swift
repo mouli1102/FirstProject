@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Foundation
 class TestTableViewController: UITableViewController {
 
     var models = [String]()
@@ -31,7 +31,7 @@ class TestTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 3
+        return 4
     }
 
     
